@@ -1,14 +1,14 @@
 # Projet Symfony
 
-Site web codé avec Symfony, creation, modification d'article, connection/deconnexion utilisateur, affichage d'un article en particulier, systeme de commentaire sur chaque article. utilisation d'une base de données Doctrine et affichage grâce à des templates Twig.
+Site web codé avec Symfony, creation/modification d'article, connection/deconnexion d'utilisateur, affichage d'un article en particulier, systeme de commentaire sur chaque article. Utilisation d'une base de données avec Doctrine et affichage grâce à des templates Twig.
 
-Cloner le projet, se rendre dans le dossier du projet avec un terminal et télécharger les dépendances : **composer install**
 
-Editer le fichier .env pour recréer la BDD selon vos identifiants et le port d'accès à MySQL.  
+1- Cloner le projet, se rendre dans le dossier du projet avec un terminal et télécharger les dépendances : **composer install**
 
-DATABASE_URL=mysql://root:@127.0.0.1:8889/CRUD_symfony
+2- Editer le fichier .env pour recréer la BDD selon vos identifiants et le port d'accès à MySQL :
+        DATABASE_URL=mysql://root:@127.0.0.1:8889/CRUD_symfony
 
-Ensuite : 
+3- Ensuite, taper ces commandes dans l'invité de commande : 
 
 - php bin/console doctrine:database:create
 - php bin/console make:migration
@@ -16,6 +16,7 @@ Ensuite :
 
 Si il y a une erreur avec la dernière commande, c'est normal car les tables existent déjà dans Migrations mais il faut quand même lancer la commande pour qu'elles existent vraiment dans PhpMyAdmin.
 
+4- Et pour finir afin d'avoir les "fausses données" :
 - php bin/console doctrine:fixtures:load
 
 
