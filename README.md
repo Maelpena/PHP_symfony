@@ -1,6 +1,6 @@
 # Projet Symfony
 
-Site web codé avec Symfony, creation/modification d'article, inscription/connection/deconnexion d'utilisateur, affichage d'un article en particulier, systeme de commentaire sur chaque article. Utilisation d'une base de données avec Doctrine et affichage grâce à des templates Twig.
+Site web codé avec Symfony, creation/modification d'article, inscription/connexion/deconnexion d'utilisateur, affichage d'un article en particulier, systeme de commentaire sur chaque article. Utilisation d'une base de données avec Doctrine et affichage grâce à des templates Twig.
 
 
 1- Cloner le projet, se rendre dans le dossier du projet avec un terminal et télécharger les dépendances : **composer install**
