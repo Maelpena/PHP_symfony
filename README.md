@@ -3,7 +3,7 @@
 Site web codé avec Symfony, creation/modification d'article, inscription/connexion/deconnexion d'utilisateur, affichage d'un article en particulier, systeme de commentaire sur chaque article. Utilisation d'une base de données avec Doctrine et affichage grâce à des templates Twig.
 
 
-1- Cloner le projet, se rendre dans le dossier du projet avec un terminal et télécharger les dépendances : **composer install**
+1- Cloner le projet, installer composer, se rendre dans le dossier du projet avec un terminal et télécharger les dépendances : **composer install**
 
 2- Editer le fichier .env pour recréer la BDD selon vos identifiants et le port d'accès à MySQL :
         DATABASE_URL=mysql://root:@127.0.0.1:8889/CRUD_symfony
