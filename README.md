@@ -1,4 +1,4 @@
-# Projet Symfony
+# Projet Symfony (projet est en cours et ne fonctionne pas correctement pour le moment)
 
 Site web codé avec Symfony, creation/modification d'article, inscription/connexion/deconnexion d'utilisateur, affichage d'un article en particulier, systeme de commentaire sur chaque article. Utilisation d'une base de données avec Doctrine et affichage grâce à des templates Twig.
 
